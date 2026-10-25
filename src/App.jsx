@@ -55,7 +55,7 @@ function Header({ go }) {
           <span className="accent">&gt;_</span> michael cui
         </Link>
         <nav aria-label="Site">
-          <a href={PORTFOLIO}>./portfolio</a>
+          <a href={PORTFOLIO} target="_blank" rel="noopener noreferrer">./portfolio ↗</a>
           <Link to="" go={go} className="active">./blog</Link>
           <a href={GITHUB}>github ↗</a>
         </nav>
